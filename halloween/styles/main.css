@@ -1,0 +1,105 @@
+header h2{
+	font-size: 230%;
+	
+}
+header h3{
+	font-size: 120%;
+	padding-left: 120px;
+}
+header img{
+	float:left;
+	padding-right:25px;
+	margin-top:35px;
+	margin-left:5px;
+}
+header{
+	background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	#border-bottom: 3px solid black;
+	padding-top:5px;
+}
+section{
+	display: flow-root;
+}
+aside{
+	float: left;
+	width: 200px;
+	clear:both;
+}
+
+main h1{
+	font-size: 140%;
+}
+main h1:first-child::first-letter {
+	font-size: 150% 
+
+}
+main{
+	float:left;
+	padding:10px;
+	width: 540px;
+}
+a{
+	color: #f93;
+	line-height: 2;
+	font-weight:bold;
+}
+a:hover, a:focus{
+	color: green;
+}
+
+#nav_bar ul {
+	 text-align:center;
+	 list-style: none;
+	 border-top: 2px solid black;
+	 border-bottom: 2px solid black; 
+ }
+#nav_bar li {
+	 display: inline;
+	 padding: 0 1.5em;
+	 border-right: 2px solid black; 
+ }
+#nav_bar a {
+	 font-weight: bold;
+	 color: #000000; 
+ }
+#nav_bar a.current {
+	text-decoration: none; 
+}
+
+#nav_list ul {	
+	list-style: none;
+}
+#nav_list li {	
+	width: 130px;
+	margin-bottom: .5em;
+	border: 2px solid black; 
+}
+#nav_list li a {
+	display: block;
+	padding: .25em .5em .25em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000; 
+	background-color: #f93;
+}
+#nav_list a.current {
+ background-color: silver; }
+
+body{
+	width:800px;
+	margin:auto;
+	background-color:#ffffff;
+	border: 2px solid black;
+	box-shadow: 1px 3px 15px 7px black;
+	
+}
+footer{
+	background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+	border-top: 3px solid black;
+	padding-bottom:4px;
+	font-size:90%;
+	text-align: center;
+}
+html{
+	background-image: url("../images/bats.gif");
+}
