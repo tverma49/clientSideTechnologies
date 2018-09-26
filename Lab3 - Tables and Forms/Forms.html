@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Complete a Form</title>
+    <style>
+    	* {
+    		margin: 0;
+    		padding: 0;
+    	}
+		body {
+			font: 87.5% Arial, Helvetica, sans-serif;
+			width: 500px;
+		    margin: 20px auto;
+		    padding: 20px;
+		    border: 2px solid blue;
+		}
+		h1 {
+			color: blue; 
+			font-size: 140%;
+		}
+		h2 {
+			font-size: 115%;
+			padding: .5em 0;
+		}
+		label {
+			color: blue;
+			float: left;
+			width: 8em;
+			font-weight: bold;
+			text-align: left;
+		}
+		input {
+			width: 15em;
+			margin: 0 0 .5em 1em;
+		}
+		input:focus:valid{     
+			border: 2px solid green; 
+		} 
+		input:focus:invalid{
+			border: 2px solid red; 
+		}
+		#button, #reset {
+			width: 7em;
+			background-color: silver;
+			box-shadow: 2px 2px 0 blue; }
+		#button {
+			margin-left: 9em;
+		}
+		.check{
+			width:auto;
+		}
+	</style>
+</head>
+
+<body>
+<h1>Please complete our survey</h1>
+<form name="myform" action="survey.php" method="post">
+	
+	<h2>Contact information</h2>
+	<label for="email">Email address:</label>
+    <input type="email" name="email" id="email" autofocus required><br>
+	<label for="fname">First name:</label>
+    <input type="text" name="fname" id="fname" required><br>
+	<label for="lname">Last name:</label>
+    <input type="text" name="lname" id="lname" required><br>
+	
+	
+	<h2>Geographic information</h2>
+	<label for="state">State:</label>
+    <input type="text" name="state" id="state" placeholder="Two characters"><br>
+	<label for="zip">Zip code:</label>
+    <input type="text" name="zip" id="zip" placeholder="Five digits" required><br>
+	
+	
+	<h2>How did you hear about us?</h2>
+	<label for="web">Web Search:</label>
+	<input type="checkbox" class="check" name="web" id="web"><br>
+	<label for="fb">Facebook:</label>
+	<input type="checkbox" class="check"  name="fb" id="fb"><br>
+	<label for="twit">Twitter:</label>
+	<input type="checkbox" class="check"  name="twit" id="twit"><br>
+	<label for="mail">Email message:</label>
+	<input type="checkbox" class="check"  name="mail" id="mail"><br>
+	
+	
+	
+	
+	<h2>Thank you for taking our survey!</h2>
+    <input type="submit" name="register" id="button" value="Submit">
+    <input type="reset" name="reset" id="reset"> 
+    
+</form>
+</body>
+</html>
