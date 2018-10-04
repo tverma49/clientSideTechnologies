@@ -12,15 +12,23 @@ var clearTextBoxes = function() {
 
 var convertTemp = function()	{
 	var temp = $("degrees_entered").value;
-	if($("to_celsius").checked)
+	if(isNaN(temp) == true)
 	{
-		var cel = (temp-32)*5/9;
-		$("degrees_computed").value = cel;
+		alert("Enter numeric value only!");
 	}
-	else if($("to_fahrenheit").checked)
+	else
 	{
-		var fah = (temp*9)/5 + 32;
-		$("degrees_computed").value = fah;
+		
+		if($("to_celsius").checked)
+		{
+			var cel = (temp-32)*5/9;
+			$("degrees_computed").value = cel;
+		}
+		else if($("to_fahrenheit").checked)
+		{
+			var fah = (temp*9)/5 + 32;
+			$("degrees_computed").value = fah;
+		}
 	}
 }
 
