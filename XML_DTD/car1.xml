@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+	<make>Ford</make>
+	<model>Mondeo</model>
+	<year>2007</year>
+	<color>Red</color>
+	<type>Hatchback</type>
+	<transmission>5 speed manual</transmission>
+	<engine>1.8 litre</engine>
+	<fuelType>Petrol</fuelType>
+	<milesDriven>98000</milesDriven>
+	<price>3500EUR</price>
+</car>

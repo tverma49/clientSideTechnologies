@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store>
+<mobile>
+	<make>Moto</make>
+	<model>G5 Plus</model>
+	<memory>4 GB</memory>
+	<operatingSystem>Android 8.0.1</operatingSystem>
+	<price>17000INR</price>
+</mobile>
+<mobile>
+	<make>Lenovo</make>
+	<model>S660</model>
+	<memory>2 GB</memory>
+	<operatingSystem>Android 4.4</operatingSystem>
+	<price>11000INR</price>
+</mobile>
+</store>

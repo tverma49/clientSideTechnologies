@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<car>
+	<make>BMW</make>
+	<model>320D</model>
+	<year>2005</year>
+	<color>Black</color>
+	<type>Saloon</type>
+	<transmission>6 speed automatic</transmission>
+	<engine>2.0 litre</engine>
+	<fuelType>Diesel</fuelType>
+	<milesDriven>130000</milesDriven>
+	<price>4000EUR</price>
+</car>
