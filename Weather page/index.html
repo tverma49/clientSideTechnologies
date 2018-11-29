@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 1</title>
+	<link rel="stylesheet" href='main.css' />
+	<script type="text/javascript" src="weather.js"></script>
+	<script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js"></script>
+    <script type = "text/javascript">
+			google.charts.load('current', {'packages':['line']});
+			google.charts.load('current', {'packages':['table']});
+    </script>	
+</head>
+<body>
+	<center>
+		<h1 id="txt">TrueWeather</h1>
+		<input type="text" id="city" name="city" placeholder="Search by city name"> 
+		<button id="submit" onclick="displayWeather(1);">GO</button>
+		<p id="temp"></p><br>
+
+		<table class="tg" id="table">
+		  <tr>
+		    <td id="td11"></td>
+		    <td colspan="2" id="td12"></td>
+		  </tr>
+		  <tr>
+		    <td id="td21"></td>
+		    <td colspan="2" id="td22"></td>
+		  </tr>
+		  <tr>
+		    <td rowspan="2" id="td31"></td>
+		    <td id="td32"></td>
+		    <td id="td33"></td>
+		  </tr>
+		  <tr>
+		    <td id="td42"></td>
+		    <td id="td43"></td>
+		  </tr>
+		</table>
+		<button id="next" onclick="displayWeather(2);">Next 24 hours</button>
+		<div id = "container"></div>
+		<div id="table_div"></div>
+	</center>	
+</body>
+</html>
